@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Demo - UI apps</comment>
+<entry key="createdBy">archanagupta</entry>
+<entry key="name">Demo.ui.apps</entry>
+<entry key="created">2022-07-07T22:22:37.174+0530</entry>
+<entry key="groupId">com.aem.demo</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">Demo</entry>
+<entry key="description">UI apps package for Demo</entry>
+<entry key="artifactId">Demo.ui.apps</entry>
+<entry key="path">/etc/packages/Demo/Demo.ui.apps.zip</entry>
+</properties>
