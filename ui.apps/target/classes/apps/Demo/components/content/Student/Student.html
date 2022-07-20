@@ -1,0 +1,20 @@
+<sly data-sly-use.model="com.aem.demo.core.models.StudentModel"/>
+<p data-sly-test="${model.student_name}">Student Data for: ${model.student_name}</p>
+<table border="1">
+        <thead data-sly-test="${model.headerInclude}">
+            <td>name</td>
+            <td>Roll No</td>
+            <td>Address</td>
+            <td>Class</td>
+            <td>section</td>
+        </thead>
+    <tr>
+        <td>${model.student_name}</td>
+        <td>${model.Roll_No}</td>
+        <td>${model.Address}</td>
+        <td>${model.standard}</td>
+        <td>${model.section}</td>
+    </tr>
+
+</table>
+

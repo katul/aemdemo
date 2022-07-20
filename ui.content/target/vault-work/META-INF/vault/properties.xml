@@ -2,11 +2,11 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>Demo - UI content</comment>
-<entry key="createdBy">archanagupta</entry>
+<entry key="createdBy">kumar</entry>
 <entry key="name">Demo.ui.content</entry>
-<entry key="created">2022-07-07T22:22:37.522+0530</entry>
+<entry key="created">2022-07-12T17:56:09.172+0530</entry>
 <entry key="groupId">com.aem.demo</entry>
-<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="version">1.0.10</entry>
 <entry key="requiresRoot">false</entry>
 <entry key="group">Demo</entry>
 <entry key="description">UI content package for Demo</entry>

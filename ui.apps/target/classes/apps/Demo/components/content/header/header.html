@@ -1,0 +1,18 @@
+<sly data-sly-use.header="com.aem.demo.core.Header"/>
+
+
+<header class="header-fixed">
+
+    <div class="header-limiter">
+
+        <h1><a href="#">${header.logoText}<span>logo</span></a></h1>
+
+        <nav data-sly-list.nav="${header.navigation.listChildren}" style="text-align:right;">
+            <a href="${nav.navigationLink}">${nav.navigationText}</a>
+
+
+        </nav>
+
+    </div>
+
+</header>

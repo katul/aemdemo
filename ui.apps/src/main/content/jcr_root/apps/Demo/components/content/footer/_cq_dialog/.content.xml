@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tab
+                jcr:primaryType="nt:unstructured"
+                maximized="{Boolean}true"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                 <items jcr:primaryType="nt:unstructured">
+                   <tab1
+                       jcr:primaryType="nt:unstructured"
+                       jcr:title="Logo Element"
+                       margin="{Boolean}true"
+                       sling:resourceType="granite/ui/components/coral/foundation/container">
+                   <items jcr:primaryType="nt:unstructured">
+                           <columns
+                               jcr:primaryType="nt:unstructured"
+                               margin="{Boolean}true"
+                               sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+
+                           <items jcr:primaryType="nt:unstructured">
+                               <column
+                                   jcr:primaryType="nt:unstructured"
+                                   sling:resourceType="granite/ui/components/coral/foundation/container">
+                                   <items jcr:primaryType="nt:unstructured">
+                                   <logo
+                                           jcr:primaryType="nt:unstructured"
+                                           sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                           fieldLabel="logo"
+                                           name="./logoText"/>
+                                   </items>
+                               </column>
+                           </items>
+                           </columns>
+                       </items>
+                     </tab1>
+                     <tab2
+                         jcr:primaryType="nt:unstructured"
+                         jcr:title="services"
+                         margin="{Boolean}true"
+                         sling:resourceType="granite/ui/components/coral/foundation/container">
+                              <items jcr:primaryType="nt:unstructured">
+                                 <columns
+                                     jcr:primaryType="nt:unstructured"
+                                     margin="{Boolean}true"
+                                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+
+                                 <items jcr:primaryType="nt:unstructured">
+                                     <column
+                                         jcr:primaryType="nt:unstructured"
+                                         sling:resourceType="granite/ui/components/coral/foundation/container">
+                                         <items jcr:primaryType="nt:unstructured">
+                                             <footerColumn2Heading
+                                                 jcr:primaryType="nt:unstructured"
+                                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                 fieldLabel="Column Heading"
+                                                 name="./footerColumn2Heading"/>
+                                             <footerColumn2
+                                                 jcr:primaryType="nt:unstructured"
+                                                 sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                 composite="{Boolean}true"
+                                                 fieldLabel="Footer Column 2">
+                                                 <field
+                                                     jcr:primaryType="nt:unstructured"
+                                                     sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                     name="./footerColumn2">
+                                                     <items jcr:primaryType="nt:unstructured">
+                                                         <column
+                                                                 jcr:primaryType="nt:unstructured"
+                                                                 sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                             <items jcr:primaryType="nt:unstructured">
+                                                                 <footerColumn2Item
+                                                                     jcr:primaryType="nt:unstructured"
+                                                                     sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                     fieldLabel="Footer Item"
+                                                                     name="./footerColumn2Item"/>
+                                                             </items>
+                                                         </column>
+                                                     </items>
+                                                 </field>
+                                             </footerColumn2>
+                                         </items>
+                                     </column>
+                                 </items>
+                              </columns>
+                             </items>
+                     </tab2>
+                     <tab3
+                         jcr:primaryType="nt:unstructured"
+                         jcr:title="address"
+                         margin="{Boolean}true"
+                         sling:resourceType="granite/ui/components/coral/foundation/container">
+                         <items jcr:primaryType="nt:unstructured">
+                             <columns
+                                 jcr:primaryType="nt:unstructured"
+                                 margin="{Boolean}true"
+                                 sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+
+                             <items jcr:primaryType="nt:unstructured">
+                                 <column
+                                     jcr:primaryType="nt:unstructured"
+                                     sling:resourceType="granite/ui/components/coral/foundation/container">
+                                     <items jcr:primaryType="nt:unstructured">
+                                         <FooterColumn3Heading
+                                                 jcr:primaryType="nt:unstructured"
+                                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                 fieldLabel="address_heading"
+                                                 name="./address_heading"/>
+                                         <Column3Heading
+                                                 jcr:primaryType="nt:unstructured"
+                                                 sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                 composite="{Boolean}true"
+                                                 fieldLabel="Footer Column 2">
+                                             <field
+                                                     jcr:primaryType="nt:unstructured"
+                                                     sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                     name="./footerColumn3">
+                                                 <items jcr:primaryType="nt:unstructured">
+                                                     <column
+                                                             jcr:primaryType="nt:unstructured"
+                                                             sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                         <items jcr:primaryType="nt:unstructured">
+                                                             <Column3Item
+                                                                     jcr:primaryType="nt:unstructured"
+                                                                     sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                     fieldLabel="Footer Item"
+                                                                     name="./footerColumn3Item"/>
+                                                         </items>
+                                                     </column>
+                                                 </items>
+                                             </field>
+                                         </Column3Heading>                                    </items>
+                                 </column>
+                             </items>
+                         </columns>
+                         </items>
+                     </tab3>
+                 </items>
+            </tab>
+        </items>
+    </content>
+</jcr:root>
+

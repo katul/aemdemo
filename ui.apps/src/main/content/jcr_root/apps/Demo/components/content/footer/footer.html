@@ -1,0 +1,21 @@
+<sly data-sly-use.footer="com.aem.demo.core.models.Footer"/>
+${footer.footerColumn2}
+<section id="footer">
+    <div class="main-footer">
+        <div class="logoinfo" data-aos="fade-up">
+            ${footer.logoText}
+        </div>
+        <div class="com " data-aos="fade-up">
+            <h1>${footer.footerColumn2Heading}</h1>
+            <ul data-sly-list="${footer.footerColumn2.listChildren}">
+                <li><a href="#">${item.footerColumn2Item}</a></li>
+            </ul>
+        </div>
+        <div class="info" data-aos="fade-up">
+            <h4>${footer.address_heading}</h4>
+            <p data-sly-repeat.child="${footer.footerColumn3.listChildren}">${child.footerColumn3Item}</p>
+
+        </div>
+    </div>
+
+</section>

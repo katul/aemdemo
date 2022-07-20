@@ -1,20 +1,24 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1657212755896
-Build-Jdk: 1.8.0_261
-Built-By: archanagupta
+Bnd-LastModified: 1657987789653
+Build-Jdk: 1.8.0_321
+Built-By: kumar
 Bundle-Description: Core bundle for Demo
 Bundle-ManifestVersion: 2
 Bundle-Name: Demo - Core
 Bundle-SymbolicName: com.aem.demo.Demo.core
-Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-Version: 1.0.10
 Created-By: Apache Maven Bundle Plugin
-Export-Package: com.aem.demo.core.filters;uses:="javax.servlet";version=
- "1.0.0",com.aem.demo.core.servlets;uses:="javax.servlet,org.apache.slin
- g.api,org.apache.sling.api.servlets";version="1.0.0",com.aem.demo.core.
- models;uses:="javax.annotation,javax.inject,org.apache.sling.api.resour
- ce,org.apache.sling.models.annotations";version="1.0.0",com.aem.demo.co
- re;version="1.0",com.aem.demo.core.listeners;uses:="org.osgi.service.ev
- ent";version="1.0.0",com.aem.demo.core.schedulers;version="1.0.0"
+Export-Package: com.aem.demo.core.components.content;uses:="org.apache.s
+ ling.api.resource,org.apache.sling.models.annotations";version="1.0.10"
+ ,com.aem.demo.core.filters;uses:="javax.servlet";version="1.0.10",com.a
+ em.demo.core;version="1.0";uses:="javax.inject,org.apache.sling.api.res
+ ource,org.apache.sling.models.annotations",com.aem.demo.core.listeners;
+ uses:="org.osgi.service.event";version="1.0.10",com.aem.demo.core.model
+ s;uses:="javax.annotation,javax.inject,org.apache.sling.api.resource,or
+ g.apache.sling.models.annotations";version="1.0.10",com.aem.demo.core.s
+ chedulers;version="1.0.10",com.aem.demo.core.servlets;uses:="javax.serv
+ let,org.apache.sling.api,org.apache.sling.api.servlets";version="1.0.10
+ "
 Import-Package: javax.inject;version="0.0.0",javax.annotation,javax.serv
  let,org.apache.sling.api;version="[2.3,3)",org.apache.sling.api.request
  ;version="[2.4,3)",org.apache.sling.api.resource;version="[2.10,3)",org

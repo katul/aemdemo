@@ -1,15 +1,15 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1657212758016
-Build-Jdk: 1.8.0_261
-Built-By: archanagupta
+Bnd-LastModified: 1657987795430
+Build-Jdk: 1.8.0_321
+Built-By: kumar
 Bundle-Description: Bundles for Integration Tests for Demo
 Bundle-ManifestVersion: 2
 Bundle-Name: Demo - Integration Tests Bundles
 Bundle-SymbolicName: com.aem.demo.Demo.it.tests
-Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-Version: 1.0.10
 Created-By: Apache Maven Bundle Plugin
 Export-Package: com.aem.demo.it.tests;uses:="org.apache.sling.junit.anno
- tations,org.junit,org.junit.runner";version="1.0.0"
+ tations,org.junit,org.junit.runner";version="1.0.10"
 Import-Package: com.aem.demo.core.models;version="[1.0,2)",org.apache.sl
  ing.api.resource;version="[2.10,3)",org.apache.sling.junit.annotations;
  version="[1.0,2)",org.apache.sling.settings;version="[1.3,2)",org.junit

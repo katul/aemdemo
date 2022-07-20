@@ -19,13 +19,12 @@
     <groupId>com.aem.demo</groupId>
     <artifactId>Demo</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.10</version>
     <description>Demo</description>
 
     <modules>
         <module>core</module>
         <module>ui.apps</module>
-        <module>ui.content</module>
         <module>it.tests</module>
         <module>it.launcher</module>
     </modules>
